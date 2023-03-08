@@ -53,8 +53,11 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         // init GOSU SDK
-        Gosu.getSharedInstance().initialize(this, "m319.LqmSIpuS5UqkbUPc");
+        Gosu.getSharedInstance().initialize(this, "m388.6dczgK7QHFMbB2Yy");
         mGosu = Gosu.getSharedInstance();
+
+        RelativeLayout rlScreen = (RelativeLayout) findViewById(R.id.rlScreen);
+        rlScreen.addView(mGosu.addView(this));
 
         getDeviceToken();
 
