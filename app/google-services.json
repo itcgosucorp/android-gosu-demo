@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1039893051024",
+    "firebase_url": "https://gosu-210203.firebaseio.com",
+    "project_id": "gosu-210203",
+    "storage_bucket": "gosu-210203.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039893051024:android:b923ded081ce0c5aca8a15",
+        "android_client_info": {
+          "package_name": "vn.gosu.demosdk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039893051024-ui1q09dhbpk0va72f17e8gels9o8498j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmWeliVzBK2BXvMS2yBtEGzjFzkOJfdNw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039893051024-246ukskhdge0ap59dep461ni9m1r1g3b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1039893051024-215e0d713jtebh3dg80tlb0b3e5aiu1i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.fbapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

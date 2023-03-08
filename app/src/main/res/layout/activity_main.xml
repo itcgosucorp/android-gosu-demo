@@ -1,0 +1,198 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg" >
+
+    <Button
+        android:id="@+id/btnVaoGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/yellow"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:text="Vao Game"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+
+        android:background="@mipmap/bg" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="top|center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_uID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="5dp" />
+
+            <Button
+                android:id="@+id/btn_payment_iap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/yellow"
+                android:gravity="left|center"
+                android:padding="10dp"
+                android:text="(3)  Payment IAP"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_appsflyer_tracking_custom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="35dp"
+                android:background="@color/brown"
+                android:gravity="left|center"
+                android:padding="10dp"
+                android:text="(4)  Appsflyer Tracking Custom"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_floating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="35dp"
+                android:background="@color/brown"
+                android:gravity="left|center"
+                android:padding="10dp"
+                android:text="(5)  Show Floating"
+                android:textColor="@color/white"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/btn_facebook_share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/blue"
+                android:gravity="left|center"
+                android:padding="10dp"
+                android:text="(6)  Facebook Share"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_share_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/blue"
+                android:gravity="left|center"
+                android:padding="10dp"
+                android:text="(7)  Share Link"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_gosutracking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/gray"
+                android:gravity="left|center"
+                android:padding="10dp"
+                android:text="(8)  Tracking AppOpen"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/gray"
+                android:gravity="left|center"
+                android:padding="10dp"
+                android:text="(9)  Logout"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/layout_iap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="@color/black_overlay" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:padding="20dp" >
+
+            <Button
+                android:id="@+id/btn_pk1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_overlay"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Item 1: 22.000 VNĐ"
+                android:textColor="@color/black" />
+            <Button
+                android:id="@+id/btn_pk2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white_overlay"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Item 2: 44.000 VNĐ"
+                android:textColor="@color/black" />
+            <Button
+                android:id="@+id/btn_pk3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white_overlay"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Item 3: 66.000 VNĐ"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn_cancel_iap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white_overlay"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Cancel"
+                android:textColor="@color/red" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DemoSDK</string>
+
+    <!-- use for Facebook SDK -->
+    <!--<string name="facebook_app_id">116350609033094</string>
+    <string name="facebook_app_scheme">fb116350609033094</string>
+    <string name="facebook_app_name">BAPVIP ID</string>-->
+
+    <string name="facebook_app_id">717886485019785</string>
+    <string name="facebook_client_token">aa8f63fc71f1270492327a12453f331b</string>
+
+    <!-- use for Firebase SDK -->
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+</resources>
