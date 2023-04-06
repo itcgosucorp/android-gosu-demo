@@ -107,6 +107,34 @@ public class MainActivity extends Activity {
             }
         });
 
+        // for delete account
+        findViewById(R.id.btn_delete_account).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mGosu.deleteAcount(new Gosu.OnDeleteAccountListener() {
+                    @Override
+                    public void onDeleteAccountSuccessful(String Message) {
+
+                        mGosu.showConfirmDialog("Success!", Message);
+
+                        //call again login form
+                        btnVaoGame.setVisibility(View.VISIBLE);
+                        layoutMain.setVisibility(View.GONE);
+                    }
+
+                    @Override
+                    public void onDeleteAccountCancel() {
+                        // cancel
+                    }
+
+                    @Override
+                    public void onDeleteAccountFailed(String Message) {
+                        mGosu.showConfirmDialog("Error!", Message);
+                    }
+                });
+            }
+        });
+
         // for appsflyer tracking custom
         findViewById(R.id.btn_appsflyer_tracking_custom).setOnClickListener(new View.OnClickListener() {
             @Override

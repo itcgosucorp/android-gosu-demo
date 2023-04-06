@@ -57,16 +57,30 @@
                 android:textColor="@color/white" />
 
             <Button
+                android:id="@+id/btn_delete_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorAccent"
+                android:gravity="left|center"
+                android:visibility="visible"
+                android:padding="10dp"
+                android:text="(4)  Delete Account"
+                android:textColor="@color/white" />
+
+            <Button
                 android:id="@+id/btn_appsflyer_tracking_custom"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
-                android:layout_marginTop="35dp"
+                android:layout_marginTop="5dp"
                 android:background="@color/brown"
                 android:gravity="left|center"
                 android:padding="10dp"
-                android:text="(4)  Appsflyer Tracking Custom"
+                android:text="(5)  Appsflyer Tracking Custom"
                 android:textColor="@color/white" />
 
             <Button
@@ -79,7 +93,7 @@
                 android:background="@color/brown"
                 android:gravity="left|center"
                 android:padding="10dp"
-                android:text="(5)  Show Floating"
+                android:text="(6)  Show Floating"
                 android:textColor="@color/white"
                 android:visibility="gone"/>
 
@@ -93,7 +107,7 @@
                 android:background="@color/blue"
                 android:gravity="left|center"
                 android:padding="10dp"
-                android:text="(6)  Facebook Share"
+                android:text="(7)  Facebook Share"
                 android:textColor="@color/white" />
 
             <Button
@@ -106,7 +120,7 @@
                 android:background="@color/blue"
                 android:gravity="left|center"
                 android:padding="10dp"
-                android:text="(7)  Share Link"
+                android:text="(8)  Share Link"
                 android:textColor="@color/white" />
 
             <Button
@@ -119,7 +133,7 @@
                 android:background="@color/gray"
                 android:gravity="left|center"
                 android:padding="10dp"
-                android:text="(8)  Tracking AppOpen"
+                android:text="(9)  Tracking AppOpen"
                 android:textColor="@color/white" />
 
             <Button
@@ -132,7 +146,7 @@
                 android:background="@color/gray"
                 android:gravity="left|center"
                 android:padding="10dp"
-                android:text="(9)  Logout"
+                android:text="(10)  Logout"
                 android:textColor="@color/white" />
         </LinearLayout>
     </ScrollView>
